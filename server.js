@@ -2,7 +2,7 @@ const express = require('express');
 const entryroutes = require('./routes/entry');
 const searchroutes = require('./routes/search');
 const http = require('http');
-const hostname = '192.168.0.94';
+const hostname = 'localhost';
 const port = 3000;
 
 const app = express();
