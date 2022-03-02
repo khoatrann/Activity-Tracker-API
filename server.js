@@ -17,5 +17,4 @@ const listener = app.listen(port, hostname, () => {
     console.log(`server running on http://${hostname}:${port}`);
 });
 
-app.use(express.json());
 app.use('/', entryroutes, searchroutes);
